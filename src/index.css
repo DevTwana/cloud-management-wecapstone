@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4
+        /* that will apply list item for the whole application */;
+  }
+  button {
+    @apply text-white border bg-sky-600 border-sky-600
+        hover:bg-transparent hover:text-sky-600 rounded-md
+        transition ease-in-out duration-200;
+  }
+}
+body {
+  overflow-x: hidden;
+}
